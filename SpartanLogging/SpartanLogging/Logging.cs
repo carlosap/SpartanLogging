@@ -6,6 +6,16 @@ namespace SpartanLogging
 {
     public class Logging : ILogging
     {
+        private string _path;
+        public Logging(string path)
+        {
+            _path = path;
+        }
+
+        public Logging()
+        {
+            _path = Directory.GetCurrentDirectory();
+        }
         public Task Exception(string name, Exception exception, bool save=false) => Task.Run(async () =>
         {
             await Task.Run(async () =>
@@ -62,7 +72,7 @@ namespace SpartanLogging
             return await Task.Run(async () =>
             {
                 var traceExtension = await GetFileExtension(traceType);
-                var directoryPath = Path.Combine(Config.AppPath, "Logs", traceType.ToString());
+                var directoryPath = Path.Combine(_path, "Logs", traceType.ToString());
                 if (!Directory.Exists(directoryPath))
                 {
                     Directory.CreateDirectory(directoryPath);

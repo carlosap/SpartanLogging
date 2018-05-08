@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Carlos A. Perez</Authors>
+    <Description>Cross-platform base framework for logging msgs</Description>
+    <PackageProjectUrl>https://github.com/carlosap/SpartanLogging</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/carlosap/SpartanLogging</RepositoryUrl>
+    <PackageReleaseNotes>Cross-platform base framework for logging msgs</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\SpartanExtensions\SpartanExtensions\SpartanExtensions\SpartanExtensions.csproj" />
+    <PackageReference Include="SpartanAppExtensions" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
