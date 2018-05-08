@@ -7,6 +7,8 @@
     <PackageProjectUrl>https://github.com/carlosap/SpartanLogging</PackageProjectUrl>
     <RepositoryUrl>https://github.com/carlosap/SpartanLogging</RepositoryUrl>
     <PackageReleaseNotes>Cross-platform base framework for logging msgs</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageIconUrl>https://raw.githubusercontent.com/carlosap/content/master/images/spartan_32x32.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
