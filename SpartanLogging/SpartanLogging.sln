@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27604.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanLogging", "SpartanLogging\SpartanLogging.csproj", "{B2D1CF9B-3C5E-4125-9F4A-E55CFFFF4BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpartanLogging", "SpartanLogging\SpartanLogging.csproj", "{B2D1CF9B-3C5E-4125-9F4A-E55CFFFF4BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanLogging.Test", "SpartanLogging.Test\SpartanLogging.Test.csproj", "{DA81F70A-A7E8-4958-981D-74B86F479763}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B2D1CF9B-3C5E-4125-9F4A-E55CFFFF4BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D1CF9B-3C5E-4125-9F4A-E55CFFFF4BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D1CF9B-3C5E-4125-9F4A-E55CFFFF4BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA81F70A-A7E8-4958-981D-74B86F479763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA81F70A-A7E8-4958-981D-74B86F479763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA81F70A-A7E8-4958-981D-74B86F479763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA81F70A-A7E8-4958-981D-74B86F479763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,12 +7,15 @@
     <PackageProjectUrl>https://github.com/carlosap/SpartanLogging</PackageProjectUrl>
     <RepositoryUrl>https://github.com/carlosap/SpartanLogging</RepositoryUrl>
     <PackageReleaseNotes>Cross-platform base framework for logging msgs</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageIconUrl>https://raw.githubusercontent.com/carlosap/content/master/images/spartan_32x32.png</PackageIconUrl>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SpartanAppExtensions" Version="1.0.1" />
+    <PackageReference Include="SpartanAppExtensions" Version="1.0.3" />
+    <PackageReference Include="SpartanSettings" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
